@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <!-- Circular Image Container -->
+    <FrameLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/circle_boder">
+
+        <!-- Circular ImageView centered in the container -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:src="@drawable/location_image"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </FrameLayout>
+
+    <!-- Place Name -->
+    <TextView
+        android:id="@+id/textViewPlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityName"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imageContainer"
+        app:layout_constraintStart_toStartOf="@id/imageContainer"
+        app:layout_constraintTop_toBottomOf="@id/imageContainer"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Place Description -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

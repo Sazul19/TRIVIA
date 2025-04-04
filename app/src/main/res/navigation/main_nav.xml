@@ -1,0 +1,20 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.trivia.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/tripsFragment"
+        android:name="com.example.trivia.TripPlannerFragment"
+        android:label="Trips" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.trivia.NotificationFragment"
+        android:label="Notifications" />
+</navigation>

@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer Gradient Border -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="0"
+                android:startColor="@color/light_purple"
+                android:centerColor="@color/normal_orange"
+                android:endColor="@color/main_orange"
+                android:type="sweep"/>
+        </shape>
+    </item>
+
+    <!-- Inner White Circle (To Cover the Inner Part) -->
+    <item
+        android:bottom="6dp"
+        android:left="6dp"
+        android:right="6dp"
+        android:top="6dp">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Inner White Circle -->
+        </shape>
+    </item>
+
+</layer-list>

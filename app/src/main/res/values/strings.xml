@@ -1,0 +1,41 @@
+<resources>
+
+
+    <!-- App Name -->
+    <string name="app_name">TRIVIA</string>
+
+    <!-- Login Screen Strings -->
+    <string name="welcome_text">Welcome Back!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_empty_password">Password cannot be empty</string>
+
+    <!-- Success Messages -->
+    <string name="login_successful">Login Successful!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="let_s_trave">Let\'s Travel</string>
+    <string name="user_name">User</string>
+    <string name="greeting">Hi</string>
+    <string name="locationName">Location</string>
+    <string name="activityName">Activity</string>
+    <string name="locationDescription">No description available</string>
+    <string name="createTripTopic">Let\'s start planning</string>
+    <string name="trip_name">antz trips\n</string>
+    <string name="place_name">ex: Colombo</string>
+    <string name="itemLocation">Kandy</string>
+    <string name="hello_user">Hello!</string>
+    <string name="where_travel">Let\'s find your travel destination</string>
+    <string name="topic_activity">Activities and Experiences</string>
+    <string name="topic_locations">Popular locations</string>
+    <string name="place_name_start">from...</string>
+    <string name="place_name_end">to...</string>
+
+
+</resources>
